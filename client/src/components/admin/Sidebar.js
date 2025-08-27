@@ -33,15 +33,7 @@ const Sidebar = () => {
 
     setUser(JSON.parse(localStorage.getItem("admin")));
   }, [navigate]);
-  // useEffect(() => {
-  //   if (rf === "home") {
-  //     elRef[0].current.scrollIntoView({
-  //       behavior: "smooth",
-  //       block: "end",
-  //       inline: "nearest",
-  //     });
-  //   }
-  // }, []);
+
   return (
     <div className="flex-[0.2]">
       <div className="space-y-8 bg-[#0D1B2A] overflow-y-scroll scrollbar-thin scrollbar-track-white scrollbar-thumb-gray-300 h-[33rem]">
