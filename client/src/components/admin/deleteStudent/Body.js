@@ -89,7 +89,7 @@ const Body = () => {
             <Select
               required
               displayEmpty
-              sx={{ height: 36, width: 224 }}
+              sx={{ height: 36, width: 224,backgroundColor: 'white'  }}
               inputProps={{ "aria-label": "Without label" }}
               value={value.department}
               onChange={(e) =>
@@ -106,7 +106,7 @@ const Body = () => {
             <Select
               required
               displayEmpty
-              sx={{ height: 36, width: 224 }}
+              sx={{ height: 36, width: 224,backgroundColor: 'white'  }}
               inputProps={{ "aria-label": "Without label" }}
               value={value.year}
               onChange={(e) => setValue({ ...value, year: e.target.value })}>

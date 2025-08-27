@@ -102,11 +102,11 @@ const Body = () => {
 
                 <div className={classes.adminForm3} >
                   <h1 className={classes.adminLabel}>To :</h1>
-                 
+              
                   <Select
                     required
                     displayEmpty
-                    sx={{ height: 36 }}
+                    sx={{ height: 36, backgroundColor: 'white' }}
                     inputProps={{ " paria-label": " Without label" }}
                     value={value.noticeFor}
                     onChange={(e) =>
@@ -118,6 +118,8 @@ const Body = () => {
                     <MenuItem value="student">Student</MenuItem>
                   </Select>
                 </div>
+
+                
                 <div className={classes.adminForm3}>
                   <h1 className={classes.adminLabel}>From :</h1>
 

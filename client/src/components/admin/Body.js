@@ -23,7 +23,7 @@ const Body = () => {
   return (
     <div className="flex-[0.8] mx-5 mt-5">
       <div className="space-y-6">
-        <div className="flex text-[#CCCCCC]        items-center space-x-2">
+        <div className="flex text-[#CCCCCC]   items-center space-x-2">
           <HomeIcon />
           <h1>Dashboard</h1>
         </div>

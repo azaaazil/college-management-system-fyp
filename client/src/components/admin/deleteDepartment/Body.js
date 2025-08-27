@@ -68,7 +68,7 @@ const Body = () => {
             <Select
               required
               displayEmpty
-              sx={{ height: 36, width: 224 }}
+              sx={{ height: 36, width: 224, backgroundColor: 'white'  }}
               inputProps={{ "aria-label": "Without label" }}
               value={department}
               onChange={(e) => setDepartment(e.target.value)}>

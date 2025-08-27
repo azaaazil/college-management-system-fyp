@@ -204,7 +204,7 @@ const Body = () => {
                   <Select
                     required
                     displayEmpty
-                    sx={{ height: 36 }}
+                    sx={{ height: 36,backgroundColor: 'white'  }}
                     inputProps={{ "aria-label": "Without label" }}
                     value={value.department}
                     onChange={(e) =>
@@ -223,7 +223,7 @@ const Body = () => {
                   <Select
                     required
                     displayEmpty
-                    sx={{ height: 36 }}
+                    sx={{ height: 36,backgroundColor: 'white'  }}
                     inputProps={{ "aria-label": "Without label" }}
                     value={value.gender}
                     onChange={(e) =>
@@ -292,7 +292,7 @@ const Body = () => {
                   <Select
                     required
                     displayEmpty
-                    sx={{ height: 36 }}
+                    sx={{ height: 36,backgroundColor: 'white'   }}
                     inputProps={{ "aria-label": "Without label" }}
                     value={value.section}
                     onChange={(e) =>
