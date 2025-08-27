@@ -51,7 +51,7 @@ const Body = () => {
                   height={50}
                   width={150}
                   color="#CCCCCC"
-                  messageColor="blue"
+                  messageColor="#CCCCCC"
                 />
               )}
               {error.noSubjectError && (

@@ -92,8 +92,8 @@ const Body = () => {
                   message="Deleting"
                   height={50}
                   width={150}
-                  color="#ff0000ff"
-                  messageColor="blue"
+                  color="#CCCCCC"
+                  messageColor="#CCCCCC"
                 />
               )}
               {(error.noFacultyError || error.backendError) && (

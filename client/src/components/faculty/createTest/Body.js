@@ -218,8 +218,8 @@ const Body = () => {
                   message="Creating Test"
                   height={30}
                   width={150}
-                  color="#111111"
-                  messageColor="blue"
+                  color="#CCCCCC"
+                  messageColor="#CCCCCC"
                 />
               )}
               {(error.testError || error.backendError) && (

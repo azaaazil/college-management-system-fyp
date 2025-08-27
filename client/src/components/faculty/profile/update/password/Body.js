@@ -128,8 +128,8 @@ const Body = () => {
                 message="Updating"
                 height={30}
                 width={150}
-                color="#111111"
-                messageColor="#blue"
+                color="#CCCCCC"
+                messageColor="#CCCCCC"
               />
             )}
             {(error.mismatchError || error.backendError) && (

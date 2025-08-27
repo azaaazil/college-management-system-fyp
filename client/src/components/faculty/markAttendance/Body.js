@@ -171,8 +171,8 @@ const Body = () => {
                   message="Loading"
                   height={50}
                   width={150}
-                  color="#111111"
-                  messageColor="blue"
+                  color="#CCCCCC"
+                  messageColor="#CCCCCC"
                 />
               )}
               {(error.noStudentError || error.backendError) && (

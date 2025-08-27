@@ -122,8 +122,8 @@ const StudentLogin = () => {
               message="Logging In"
               height={30}
               width={150}
-              color="#ffffff"
-              messageColor="#fff"
+              color="#CCCCCC"
+              messageColor="#CCCCCC"
             />
           )}
           {(error.usernameError || error.passwordError) && (

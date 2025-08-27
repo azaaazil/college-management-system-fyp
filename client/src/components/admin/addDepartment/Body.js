@@ -84,8 +84,8 @@ const Body = () => {
                   message="Adding Department"
                   height={30}
                   width={150}
-                  color="#111111"
-                  messageColor="blue"
+                  color="#CCCCCC"
+                  messageColor="#CCCCCC"
                 />
               )}
               {(error.departmentError || error.backendError) && (

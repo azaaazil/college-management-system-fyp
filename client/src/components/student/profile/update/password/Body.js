@@ -130,7 +130,7 @@ const Body = () => {
                 height={30}
                 width={150}
                 color="#CCCCCC"
-                messageColor="#blue"
+                messageColor="#CCCCCC"
               />
             )}
             {error.mismatchError && (
