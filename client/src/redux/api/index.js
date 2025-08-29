@@ -1,16 +1,18 @@
 import axios from "axios";
 
 // const API = axios.create({ baseURL: process.env.REACT_APP_SERVER_URL });
-const API = axios.create({ baseURL: "https://college-management-system-fyp-production.up.railway.app" });
+const API = axios.create({
+  baseURL: process.env.REACT_APP_BACKEND_URL
+});
 
 API.interceptors.request.use((req) => {
-  if (localStorage.getItem("user")) {
-    req.headers.Authorization = `Bearer ${
-      JSON.parse(localStorage.getItem("user")).token
-    }`;
+  const user = localStorage.getItem("user");
+  if (user) {
+    req.headers.Authorization = `Bearer ${JSON.parse(user).token}`;
   }
   return req;
 });
+
 
 // Admin
 
