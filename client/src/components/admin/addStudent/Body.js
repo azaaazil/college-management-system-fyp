@@ -89,7 +89,7 @@ const Body = () => {
           <AddIcon />
           <h1>Add Student</h1>
         </div>
-        <div className=" mr-10 bg-[#1B263B] flex flex-col rounded-xl absolute right-[12%] ">
+        <div className=" mr-10 bg-[#1B263B] flex flex-col rounded-xl mx-5 ">
           <form
             className={`${classes.adminForm0} scrollbar-thin scrollbar-[#0D1B2A] scrollbar-[#0D1B2A] overflow-y-scroll h-[30rem]`}
             onSubmit={handleSubmit}>
