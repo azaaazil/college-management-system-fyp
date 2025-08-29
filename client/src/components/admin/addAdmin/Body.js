@@ -66,7 +66,7 @@ const Body = () => {
   }, []);
 
   return (
-    <div className="flex-[0.8] absolute right-[12%] mt-10" >
+    <div className="flex-[0.8] mx-10 mt-10" >
       
       
       <div className="space-y-5">

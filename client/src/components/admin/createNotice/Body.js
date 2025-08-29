@@ -61,12 +61,12 @@ const Body = () => {
   return (
     <div className="flex-[0.8] mt-10">
       <div className="space-y-5">
-        <div className="flex text-[#CCCCCC] absolute left-[25%]  items-center space-x-4">
+        <div className="flex text-[#CCCCCC] mx-8  items-center space-x-4">
           <EngineeringIcon />
           <h1>Create Notice</h1>
         </div>
        
-        <div className=" w-[70%] absolute left-[24.5%] top-[22%] bg-[#1B263B] flex flex-col rounded-xl ">  {/*yeh marigne setting hai is box ki*/}
+        <div className=" w-[95%] mx-8 top-[22%] bg-[#1B263B] flex flex-col rounded-xl ">  {/*yeh marigne setting hai is box ki*/}
           <form className={classes.adminForm0} onSubmit={handleSubmit}>
             <div className={classes.adminForm1}>
               <div className={classes.adminForm2l}>
