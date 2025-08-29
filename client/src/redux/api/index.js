@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const API = axios.create({ baseURL: process.env.REACT_APP_SERVER_URL });
 const API = axios.create({
-  baseURL: process.env.REACT_APP_BACKEND_URL
+  baseURL: 'https://college-management-system-fyp-production.up.railway.app/api'
 });
 
 API.interceptors.request.use((req) => {
