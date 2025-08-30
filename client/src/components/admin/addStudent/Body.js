@@ -83,7 +83,7 @@ const Body = () => {
   }, []);
 
   return (
-    <div className="flex-[0.8] ml-5 mt-[-1%]">
+    <div className="flex-[0.8] ml-5 mt-[-5%]">
       <div className="space-y-5">
         <div className=" ml-8 space-x-2 flex text-[#CCCCCC]  ">
           <AddIcon />
@@ -184,7 +184,7 @@ const Body = () => {
                   <Select
                     required
                     displayEmpty
-                    sx={{ height: 36 }}
+                    sx={{ height: 36, backgroundColor:'white'}}
                     inputProps={{ "aria-label": "Without label" }}
                     value={value.year}
                     onChange={(e) =>
