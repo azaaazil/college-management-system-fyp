@@ -184,7 +184,7 @@ const Body = () => {
                   <Select
                     required
                     displayEmpty
-                    sx={{ height: 36, backgroundColor:'white'}}
+                    sx={{ height: 36, backgroundColor: 'white' }}
                     inputProps={{ "aria-label": "Without label" }}
                     value={value.year}
                     onChange={(e) =>
