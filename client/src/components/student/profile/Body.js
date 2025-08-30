@@ -8,7 +8,7 @@ const Body = () => {
   const user = JSON.parse(localStorage.getItem("user"));
   const navigate = useNavigate();
   return (
-    <div className="flex-[0.8] ml-5 mt-14">
+    <div className="flex-[0.8] ml-5 mt-5">
       <div className="space-y-5">
         <div className="flex  items-center justify-between mr-10">
           <div className="flex space-x-2 text-[#CCCCCC]">
