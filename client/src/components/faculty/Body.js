@@ -32,7 +32,7 @@ const Body = () => {
               />
               <div className="flex flex-col text-[#CCCCCC]">
                 <h1>Class</h1>
-                <h2 className="text-2xl font-bold"></h2>
+                <h2 className="text-2xl font-bold">0</h2>
               </div>
             </div>
             <div className="flex items-center space-x-4 border-r-2">
@@ -42,7 +42,7 @@ const Body = () => {
               />
               <div className="flex flex-col text-[#CCCCCC]">
                 <h1>Student</h1>
-                <h2 className="text-2xl font-bold"></h2>
+                <h2 className="text-2xl font-bold">0</h2>
               </div>
             </div>
             <div className="flex items-center space-x-4 border-r-2">
@@ -52,7 +52,7 @@ const Body = () => {
               />
               <div className="flex flex-col text-[#CCCCCC]">
                 <h1>Subject</h1>
-                <h2 className="text-2xl font-bold"></h2>
+                <h2 className="text-2xl font-bold">0</h2>
               </div>
             </div>
             <div className="flex items-center space-x-4 ">
@@ -62,7 +62,7 @@ const Body = () => {
               />
               <div className="flex flex-col text-[#CCCCCC]">
                 <h1>Test</h1>
-                <h2 className="text-2xl font-bold"></h2>
+                <h2 className="text-2xl font-bold">0</h2>
               </div>
             </div>
           </div>
