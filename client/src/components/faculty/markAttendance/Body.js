@@ -103,7 +103,7 @@ const Body = () => {
   }, []);
 
   return (
-    <div className="flex-[0.8] ml-5 mt-3">
+    <div className="flex-[0.8] ml-3 mt-3">
       <div className="space-y-5">
         <div className="flex text-[#CCCCCC] items-center space-x-2">
           <BoyIcon />
